@@ -1,0 +1,22 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+export default function Navbar() {
+  return (
+    <nav style={{ 
+      background: '#fff', padding: '14px 30px',
+      display: 'flex', justifyContent: 'space-between',
+      alignItems: 'center', borderBottom: '1px solid #eee',
+      position: 'sticky', top: 0, zIndex: 10
+    }}>
+      <div style={{ fontWeight: '600', color: '#5A3AFF', fontSize: '1.4rem' }}>AyurSutra</div>
+      <div>
+        <Link to="/" style={{ margin: '0 16px', color: '#333', textDecoration: 'none', fontSize: '1rem' }}>Home</Link>
+        <Link to="/therapies" style={{ margin: '0 16px', color: '#333', textDecoration: 'none', fontSize: '1rem' }}>Therapies</Link>
+        <Link to="/centers" style={{ margin: '0 16px', color: '#333', textDecoration: 'none', fontSize: '1rem' }}>Centers</Link>
+        <Link to="/booking" style={{ margin: '0 16px', color: '#333', textDecoration: 'none', fontSize: '1rem' }}>Book Appointment</Link>
+        <Link to="/dashboard" style={{ margin: '0 16px', color: '#333', textDecoration: 'none', fontSize: '1rem' }}>Dashboard</Link>
+      </div>
+    </nav>
+  );
+}
