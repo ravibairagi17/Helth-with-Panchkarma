@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Login & Signup Automation Testing Project (E2E Scaffold)
 
 This repo includes a Playwright-based end-to-end (E2E) testing scaffold focused on login/signup flows.
@@ -33,3 +34,8 @@ npm run test:e2e:ui
 - `tests/auth.spec.js` is a template for `/login` and `/signup`. It will auto-skip until you implement those pages.
 - `BASE_URL` defaults to `http://127.0.0.1:5173` (see `playwright.config.js` and `.env.example`).
 
+=======
+  panchkarma
+
+Panchakarma is a comprehensive detoxification and rejuvenation treatment system deeply rooted in Ayurveda, the traditional Indian system of medicine.
+>>>>>>> 61d1b03415d4fda6d5ebfd50ab5bdf1098eb5fec
